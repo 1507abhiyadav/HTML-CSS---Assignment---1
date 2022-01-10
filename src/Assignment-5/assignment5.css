@@ -1,7 +1,74 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container, .content{
 width: 100%;
 height: 100%;
+
+}
+*{
+    box-sizing: border-box;
+}
+.page-content{
+    display: flex;
+    background: #eee;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin:25px;
+    background: #fff;
+
+}
+.card-content{
+    width:55%;
+    margin-left: 40px;
+}
+.card-pic{ 
+    position: relative;
+    width: 35%;
+    background: linear-gradient(to bottom, #9fd483, #8dc26f);
+    border-radius: 5px;
+    
+}
+img{
+    position: absolute;
+    width: 250px;
+}
+.leaf{
+    top:-25px;
+    height:290px;
+    width:280px;
+}
+.cactus{
+    height:230px;
+    width:320px;
+    left:-15px;
+    top: 35px;;
+}
+h2{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 1em;
+}
+
+.btn{
+    color: white;
+    height: 60px;
+    width:120px;
+    border-radius: 40%;
+    background-color: #9fd483;
+    border: 3px solid #9fd483;
+    margin-left: 45px;
+
+}
+.btn:hover{
+    color:black;
+    background-color: cyan;
+
 }
